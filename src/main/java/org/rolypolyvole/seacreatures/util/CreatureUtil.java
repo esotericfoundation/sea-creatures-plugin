@@ -18,7 +18,7 @@ public class CreatureUtil {
             totalWeight += creature.getWeight();
         }
 
-        int chosenWeight = random.nextInt(totalWeight + 1);
+        int chosenWeight = random.nextInt(totalWeight) + 1;
 
         totalWeight = 0;
 
