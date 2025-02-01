@@ -1,5 +1,7 @@
 # Sea Creatures Plugin
 
+[![Project Status: Abandoned](./assets/images/badges/status.svg)](./)
+
 A Minecraft java plugin that enhances your fishing experience! Adds multiple custom sea creatures, all with special custom abilities and AI.
 
 ## License
