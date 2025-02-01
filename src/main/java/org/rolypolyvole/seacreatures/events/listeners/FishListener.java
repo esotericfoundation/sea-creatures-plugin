@@ -1,4 +1,4 @@
-package org.rolypolyvole.seacreatures.events;
+package org.rolypolyvole.seacreatures.events.listeners;
 
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
@@ -15,11 +15,11 @@ import org.rolypolyvole.seacreatures.util.CreatureUtil;
 
 import java.util.Random;
 
-public class FishEvent implements Listener {
+public class FishListener implements Listener {
     private final SeaCreaturesPlugin main;
     private final Random random = new Random();
 
-    public FishEvent(SeaCreaturesPlugin main) {
+    public FishListener(SeaCreaturesPlugin main) {
         this.main = main;
     } //"Pipe" principle by stephen
 
