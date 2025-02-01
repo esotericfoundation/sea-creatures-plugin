@@ -50,6 +50,10 @@ public class FishListener implements Listener {
 
                 LivingEntity seaCreatureEntity = seaCreature.getEntity();
 
+                if (seaCreatureEntity == null) {
+                    return;
+                }
+
                 Vector velocity = new Vector(
                     player.getX() - seaCreatureEntity.getX(),
                     player.getY() - seaCreatureEntity.getY(),
