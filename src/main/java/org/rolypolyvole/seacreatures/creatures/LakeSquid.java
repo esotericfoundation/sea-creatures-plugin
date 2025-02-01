@@ -43,7 +43,7 @@ public class LakeSquid extends AbstractSeaCreature<Squid> implements Listener {
     }
 
     public void applyBuffs() {
-        PotionEffect effect = new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, PotionEffect.INFINITE_DURATION, 0, false, false);
+        PotionEffect effect = new PotionEffect(PotionEffectType.RESISTANCE, PotionEffect.INFINITE_DURATION, 0, false, false);
 
         creature.addPotionEffect(effect);
     }
